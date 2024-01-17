@@ -413,6 +413,11 @@ header .container .menu .main-menu nav a.active::after, header .container .menu 
   margin-left: 55%;
   margin-top: 2%;
 }
+@media (max-width: 992px) {
+  .AboutCompany {
+    margin-top: 400px;
+  }
+}
 
 .images-kvinna {
   width: 500px;
@@ -425,6 +430,13 @@ header .container .menu .main-menu nav a.active::after, header .container .menu 
   .images-kvinna {
     margin-left: 100px;
     margin-top: -43%;
+  }
+}
+@media (max-width: 992px) {
+  .images-kvinna {
+    margin-top: -74%;
+    max-width: 350px;
+    max-height: 800px;
   }
 }
 
@@ -440,6 +452,15 @@ header .container .menu .main-menu nav a.active::after, header .container .menu 
     margin-left: -300px;
     z-index: 1;
     left: -290px;
+  }
+}
+@media (max-width: 992px) {
+  .images-box {
+    padding: 8px;
+    margin-top: -50%;
+    max-width: 300px;
+    max-height: 300px;
+    margin-left: -145px;
   }
 }
 
@@ -459,6 +480,13 @@ header .container .menu .main-menu nav a.active::after, header .container .menu 
     margin-left: -20px;
   }
 }
+@media (max-width: 992px) {
+  .Brown {
+    font-size: 9px;
+    top: -180px;
+    left: -25px;
+  }
+}
 
 .Founder {
   color: #f94d1c;
@@ -476,6 +504,13 @@ header .container .menu .main-menu nav a.active::after, header .container .menu 
     margin-left: 120px;
   }
 }
+@media (max-width: 992px) {
+  .Founder {
+    font-size: 9px;
+    top: -193px;
+    left: -82px;
+  }
+}
 
 .Box-text {
   z-index: 4;
@@ -486,12 +521,20 @@ header .container .menu .main-menu nav a.active::after, header .container .menu 
   width: 250px;
   margin-top: -1%;
   top: -20px;
-  left: 5%;
+  left: 4%;
 }
 @media (max-width: 1200px) {
   .Box-text {
     top: -5px;
     left: -20px;
+  }
+}
+@media (max-width: 992px) {
+  .Box-text {
+    top: -170px;
+    font-size: 10px;
+    left: -45px;
+    max-width: 180px;
   }
 }
 
